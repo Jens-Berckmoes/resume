@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Resume</title>
+    <title id="title_text">Resume</title>
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -39,12 +39,16 @@
     <header class="navbar-fixed-top">
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">experience</a></li>
-                <li><a href="#education">education</a></li>
-                <li><a href="#accomplishments">accomplishments</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li ><a href="#about" id="about_text">About</a></li>
+                <li ><a href="#experience" id="experience_text">experience</a></li>
+                <li ><a href="#education" id="education_text">education</a></li>
+                <li ><a href="#accomplishments" id="accomplishments_text">accomplishments</a></li>
+                <li ><a href="#skills" id="skills_text">skills</a></li>
+                <li ><a href="#contact" id="contact_text">contact</a></li>
+                <select id="languageSwitcher">
+                    <option value="en">English</option>
+                    <option value="nl">Dutch</option>
+                </select>
             </ul>
         </nav>
     </header>
@@ -67,13 +71,13 @@
         <div class="container">
             <div class="col-md-6" data-aos="fade-up">
                 <h4>01</h4>
-                <h1 class="size-50">About me</h1>
+                <h1 class="size-50" id="about_text_h1">About me</h1>
                 <div class="h-50"></div>
-                <p>As a dedicated Java developer, I have consistently demonstrated my ability to take ownership and responsibility. My passion for clean code, thorough testing, and continuous learning has been a driving force in my career. Known for thinking outside the box, I actively seek advice from colleagues and excel at bringing teams together to collaborate and achieve the bigger picture.</p>
+                <p id="about_text_p">As a dedicated Java developer, I have consistently demonstrated my ability to take ownership and responsibility. My passion for clean code, thorough testing, and continuous learning has been a driving force in my career. Known for thinking outside the box, I actively seek advice from colleagues and excel at bringing teams together to collaborate and achieve the bigger picture.</p>
                 <div class="h-50"></div>
             </div>
             <div class="col-md-6 about-img-div">
-                <img src="img/about-img.jpg" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+                <img src="img/about-img.jpg" width="400" class="img-responsive" alt="" allign="right" data-aos="fade-right" data-aos-delay="0" />
             </div>
         </div>
     </div>
@@ -84,7 +88,7 @@
         <div class="container">
             <div class="col-md-12">
                 <h4>02</h4>
-                <h1 class="size-50">My <br /> Experience</h1>
+                <h1 class="size-50" id="experience_text_h1">Experience</h1>
                 <div class="h-50"></div>
             </div>
             <div class="col-md-12">
@@ -92,52 +96,52 @@
                     <li class="timeline-event" data-aos="fade-up">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">September 2022 - mai 2024</p>
+                            <p class="timeline-event-thumbnail" id="experience_text_acerta_date_1">September 2022 - Mai 2024</p>
                             <h3>Assign - Acerta - Team two</h3>
                             <h4>Medior Java Developer</h4>
                             <ul>
-                                <li>Focused on knowledge sharing and mentoring for testing</li>
-                                <li>Implemented tools and strategies to reduce resource and reliability costs</li>
-                                <li>Developed robust and reliable code using SOLID and Clean Code principles</li>
+                                <li id="experience_text_acerta_li_1">Focused on knowledge sharing and mentoring for testing</li>
+                                <li id="experience_text_acerta_li_2">Implemented tools and strategies to reduce resource and reliability costs</li>
+                                <li id="experience_text_acerta_li_3">Developed robust and reliable code using SOLID and Clean Code principles</li>
                             </ul> 
                         </div>
                     </li>
                     <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">January 2020 - August 2022</p>
+                            <p class="timeline-event-thumbnail" id="experience_text_acerta_date_2">January 2020 - August 2022</p>
                             <h3>Assign - Acerta - Team one</h3>
                             <h4>Medior Java Developer</h4>
                             <ul>
-                                <li>Sole Java developer in a small team, ensuring data accuracy in XML generations</li>
-                                <li>Resolved critical software issues and led meetings with managers, senior developers and clients</li>
-                                <li>Developed robust and reliable code using SOLID and Clean Code principles</li>
+                                <li id="experience_text_acerta_li_4">Sole Java developer in a small team, ensuring data accuracy in XML generations</li>
+                                <li id="experience_text_acerta_li_5">Resolved critical software issues and led meetings with managers, senior developers and clients</li>
+                                <li id="experience_text_acerta_li_6">Developed robust and reliable code using SOLID and Clean Code principles</li>
                             </ul> 
                         </div>
                     </li>
                     <li class="timeline-event" data-aos="fade-up" data-aos-delay=".4">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">February 2017 - December 2019</p>
+                            <p class="timeline-event-thumbnail" id="experience_text_volvo_date">February 2017 - December 2019</p>
                             <h3>Positive Thinking Company - Volvo Cars</h3>
                             <h4>Junior Java Developer</h4>
                             <ul>
-                                <li>Collaborated with international teams to develop and maintain software applications</li>
-                                <li>Developed and maintained code used by factory workers, ensuring usability and efficiency</li>
-                                <li>Initiated and implemented testing processes to enhance software reliability</li>
-                                <li>Became the sole developer on a project, managing all aspects of its development</li>
-                                <li>Refactored legacy code using Clean Code and SOLID principles</li>
+                                <li id="experience_text_volvo_li_1">Collaborated with international teams to develop and maintain software applications</li>
+                                <li id="experience_text_volvo_li_2">Developed and maintained code used by factory workers, ensuring usability and efficiency</li>
+                                <li id="experience_text_volvo_li_3">Initiated and implemented testing processes to enhance software reliability</li>
+                                <li id="experience_text_volvo_li_4">Became the sole developer on a project, managing all aspects of its development</li>
+                                <li id="experience_text_volvo_li_5">Refactored legacy code using Clean Code and SOLID principles</li>
                             </ul> 
                         </div>
                     </li>
                     <li class="timeline-event" data-aos="fade-up" data-aos-delay=".4">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">April 2017 - November 2017</p>
+                            <p class="timeline-event-thumbnail" id="experience_text_cegeka_date">April 2017 - November 2017</p>
                             <h3>Cegeka</h3>
                             <h4>Junior Developer</h4>
                             <ul>
-                                <li>Managed multiple websites developed in PHP and Angularjs during a six months contract</li>
+                                <li id="experience_text_cegeka_li_1">Managed multiple websites developed in PHP and Angularjs during a six months contract</li>
                             </ul> 
                         </div>
                     </li>
@@ -151,7 +155,7 @@
         <div class="container">
             <div class="col-md-12">
                 <h4>03</h4>
-                <h1 class="size-50">Education</h1>
+                <h1 class="size-50" id="education_text_h1">Education</h1>
                 <div class="h-50"></div>
             </div>
             <div class="col-md-12">
@@ -159,12 +163,12 @@
                     <li class="timeline-event" data-aos="fade-up">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">January 2016 - April 2017</p>
-                            <h3>Intec Brussels</h3>
+                            <p class="timeline-event-thumbnail" id="education_text_date">January 2016 - April 2017</p>
+                            <h3 id="education_text_h3">Intec Brussels</h3>
                             <h4>HBO 5</h4>
                             <ul>
-                                <li>Education of a year and a half, into one year</li>
-                                <li>top 5 out of 200 applicants</li>
+                                <li id="education_text_li_1">Education of a year and a half, into one year</li>
+                                <li id="education_text_li_2">top 5 out of 200 applicants</li>
                             </ul> 
                         </div>
                     </li>
@@ -178,7 +182,7 @@
         <div class="container">
             <div class="col-md-12">
                 <h4>04</h4>
-                <h1 class="size-50">Accomplishments</h1>
+                <h1 class="size-50" id="accomplishments_text_h1">Accomplishments</h1>
                 <div class="h-50"></div>
             </div>
             <div class="col-md-12">
@@ -186,10 +190,10 @@
                     <li class="timeline-event" data-aos="fade-up">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">Mai 2018</p>
+                            <p class="timeline-event-thumbnail" id="accomplishments_text_date_1">Mai 2018</p>
                             <h3>OCA</h3>
                             <ul>
-                                <li>Passing score of 82%</li>
+                                <li id="accomplishments_text_li_1">Passing score of 82%</li>
                             </ul> 
                         </div>
                     </li>
@@ -200,7 +204,7 @@
                     <li class="timeline-event" data-aos="fade-up">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">november 2024</p>
+                            <p class="timeline-event-thumbnail" id="accomplishments_text_date_2">November 2024</p>
                             <h3>IT-Planet Java Challenge</h3>
                             <ul>
                                 <li>Finalist</li>
@@ -217,7 +221,7 @@
         <div class="container">
             <div class="col-md-12">
                 <h4>05</h4>
-                <h1 class="size-50">Skills</h1>
+                <h1 class="size-50" id="skills_text_h1">Skills</h1>
                 <div class="h-50"></div>
             </div>
             <div class="col-md-12 col-lg-6">
@@ -225,28 +229,28 @@
                     <li class="timeline-event" data-aos="fade-up">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <h3>Programming Languages & Frameworks</h3>
-                            <h4>Advanced</h4>
+                            <h3 id="skills_text_h3_1">Programming Languages & Frameworks</h3>
+                            <h4 id="skills_text_h4_1_1">Advanced</h4>
                             <ul>
                                 <li>Java 8+</li>
                                 <li>Hibernate / JPA</li>
                                 <li>SQL</li>
                             </ul> 
-                            <h4>Skilled</h4>
+                            <h4 id="skills_text_h4_2_1">Skilled</h4>
                             <ul>
                                 <li>Spring</li>
                                 <li>Spring Boot</li>
                             </ul> 
-                            <h4>Competent</h4>
+                            <h4 id="skills_text_h4_3_1">Competent</h4>
                             <ul>
                                 <li>JAXB</li>
                             </ul> 
-                            <h4>Novice</h4>
+                            <h4 id="skills_text_h4_4_1">Novice</h4>
                             <ul>
                                 <li>Apache Camel</li>
                                 <li>Spring Batch</li>
                             </ul> 
-                            <h4>Basic Knowledge</h4>
+                            <h4 id="skills_text_h4_5_1">Basic Knowledge</h4>
                             <ul>
                                 <li>PHP</li>
                                 <li>Spring Security</li>
@@ -261,24 +265,24 @@
                     <li class="timeline-event" data-aos="fade-up">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <h3>Tools & Platforms</h3>
-                            <h4>Advanced</h4>
+                            <h3 id="skills_text_h3_2">Tools & Platforms</h3>
+                            <h4 id="skills_text_h4_1_2">Advanced</h4>
                             <ul>
                                 <li>IntelliJ</li>
                             </ul> 
-                            <h4>Skilled</h4>
+                            <h4 id="skills_text_h4_2_2">Skilled</h4>
                             <ul>
                                 <li>Maven</li>
                                 <li>GIT</li>
                             </ul> 
-                            <h4>Competent</h4>
+                            <h4 id="skills_text_h4_3_2">Competent</h4>
                             <ul>
                                 <li>Jenkins</li>
                                 <li>Hudson</li>
                                 <li>Github</li>
                                 <li>Bitbucket</li>
                             </ul> 
-                            <h4>Novice</h4>
+                            <h4 id="skills_text_h4_4_2">Novice</h4>
                             <ul>
                                 <li>GitHub Actions</li>
                                 <li>OpenShift</li>
@@ -292,13 +296,13 @@
                     <li class="timeline-event" data-aos="fade-up">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <h3>Testing & Quality</h3>
-                            <h4>Skilled</h4>
+                            <h3 id="skills_text_h3_3">Testing & Quality</h3>
+                            <h4 id="skills_text_h4_2_3">Skilled</h4>
                             <ul>
                                 <li>JUnit</li>
                                 <li>Mockito</li>
                             </ul> 
-                            <h4>Basic Knowledge</h4>
+                            <h4 id="skills_text_h4_5_2">Basic Knowledge</h4>
                             <ul>
                                 <li>Cucumber</li>
                             </ul>
@@ -312,7 +316,7 @@
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
                             <h3>Databases</h3>
-                            <h4>Skilled</h4>
+                            <h4 id="skills_text_h4_2_4">Skilled</h4>
                             <ul>
                                 <li>MSSQL</li>
                                 <li>Oracle</li>
@@ -329,11 +333,11 @@
         <div class="container">
             <div class="col-md-12">
                 <h4>06</h4>
-                <h1 class="size-50">Contact  Me</h1>
+                <h1 class="size-50" id="contact_text_h1">Contact  Me</h1>
                 <div class="h-50"></div>
             </div>
             <div class="col-md-4" data-aos="fade-up">
-                <h3>Mobile Number</h3>
+                <h3 id="contact_text_h3_1">Mobile Number</h3>
                 <p>+32 474 96 78 20</p>
             </div>    
             <div class="col-md-4" data-aos="fade-up">
@@ -341,7 +345,7 @@
                 <p><a href="mailto:jensberckmoeswerk@gmail.com">jensberckmoeswerk@gmail.com</a></p>
             </div>
             <div class="col-md-4" data-aos="fade-up">
-                <h3>Social Network</h3>
+                <h3 id="contact_text_h3_2">Social Network</h3>
                 <ul class="social">
                     <li><a href="https://www.linkedin.com/in/jensberckmoes"><i class="ion-social-linkedin"></i></a></li>
                     <li><a href="https://www.facebook.com/jens.berckmoes"><i class="ion-social-facebook"></i></a></li>
