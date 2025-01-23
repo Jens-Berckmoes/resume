@@ -171,7 +171,7 @@ const translations = {
         skills_text:"Vaardigheden",
         contact_text:"Contact",
         about_text_h1:"Over mij",
-        about_text_p:"Als toegewijde Java-ontwikkelaar heb ik keer op keer bewezen verantwoordelijkheid te nemen en eigenaarschap te tonen. Mijn passie voor schone code, grondig testen en continu leren heeft mijn carrière vooruitgestuwd. Bekend om mijn out-of-the-box denken, zoek ik actief advies bij collega’s en blink ik uit in het samenbrengen van teams om gezamenlijk het grotere geheel te bereiken.",
+        about_text_p:"Als toegewijde Java-ontwikkelaar heb ik keer op keer bewezen verantwoordelijkheid te nemen en eigenaarschap te tonen. Mijn passie voor clean code, grondig testen en continu bijleren heeft mijn carrière vooruitgestuwd. Bekend om mijn out-of-the-box denken, zoek ik actief advies bij collega’s en blink ik uit in het samenbrengen van teams om gezamenlijk het grotere geheel te bereiken.",
         experience_text_h1:"Ervaring",
         experience_text_acerta_date_1:"September 2022 - Mei 2024",
         experience_text_acerta_li_1:"Gefocust op het delen van kennis en begeleiden bij testen.",
