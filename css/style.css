@@ -782,6 +782,9 @@ fieldset {
     .navbar-fixed-top {
         height: 90px;
     }
+    nav ul{
+        padding: 10px;
+    }
 }
 @media (min-width: 630px) {
     .navbar-fixed-top {
