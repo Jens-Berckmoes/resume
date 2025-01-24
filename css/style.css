@@ -235,7 +235,7 @@ nav ul {
     display: inline-block;
     padding-left: 0;
     list-style: none;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 0;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -781,9 +781,6 @@ fieldset {
 @media (max-width: 629px) {
     .navbar-fixed-top {
         height: 90px;
-    }
-    nav ul{
-        padding: 10px;
     }
 }
 @media (min-width: 630px) {
