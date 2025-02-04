@@ -788,7 +788,12 @@ fieldset {
 }
 @media (min-width: 630px) {
     .navbar-fixed-top {
-        height: 65px;
+        height: 90px;
+    }
+}
+@media (min-width: 704px) {
+    .navbar-fixed-top {
+        height: 45px;
     }
 }
 
