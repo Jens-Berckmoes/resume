@@ -118,6 +118,9 @@ const translations = {
         about_text_h1:"About me",
         about_text_p:"As a dedicated Java developer, I have consistently demonstrated my ability to take ownership and responsibility. My passion for clean code, thorough testing, and continuous learning has been a driving force in my career. Known for thinking outside the box, I actively seek advice from colleagues and excel at bringing teams together to collaborate and achieve the bigger picture.",
         experience_text_h1:"Experience",
+        experience_text_personal_date_1:"Mai 2024 - now",
+        experience_text_h3_1:"Family sabatical",
+        experience_text_personal_li_1:"Took time to care for family, during which I developed valuable organizational and interpersonal skills. Fully ready to return to the job market.",
         experience_text_acerta_date_1:"September 2022 - Mai 2024",
         experience_text_acerta_li_1:"Focused on knowledge sharing and mentoring for testing.",
         experience_text_acerta_li_2:"Implemented tools and strategies to reduce resource and reliability costs.",
@@ -173,6 +176,9 @@ const translations = {
         about_text_h1:"Over mij",
         about_text_p:"Als toegewijde Java-ontwikkelaar heb ik keer op keer bewezen verantwoordelijkheid te nemen en eigenaarschap te tonen. Mijn passie voor clean code, grondig testen en continu bijleren heeft mijn carrière vooruitgestuwd. Bekend om mijn out-of-the-box denken, zoek ik actief advies bij collega’s en blink ik uit in het samenbrengen van teams om gezamenlijk het grotere geheel te bereiken.",
         experience_text_h1:"Ervaring",
+        experience_text_personal_date_1:"Mei 2024 - nu",
+        experience_text_h3_1:"Persoonlijke Verlofperiode",
+        experience_text_personal_li_1:"Tijd genomen voor persoonlijke ontwikkeling en herstel. Volledig klaar om terug te keren naar de arbeidsmarkt met vernieuwde energie en focus",
         experience_text_acerta_date_1:"September 2022 - Mei 2024",
         experience_text_acerta_li_1:"Gefocust op het delen van kennis en begeleiden bij testen.",
         experience_text_acerta_li_2:"Strategieën geïmplementeerd om kosten van middelen en betrouwbaarheid te verlagen.",
@@ -276,6 +282,9 @@ function changeLanguage() {
     document.getElementById('contact_text_h1').innerText = translations[selectedLang].contact_text_h1;
     document.getElementById('contact_text_h3_1').innerText = translations[selectedLang].contact_text_h3_1;
     document.getElementById('contact_text_h3_2').innerText = translations[selectedLang].contact_text_h3_2;
+    document.getElementById('experience_text_h3_1').innerText = translations[selectedLang].experience_text_h3_1;
+    document.getElementById('experience_text_personal_li_1').innerText = translations[selectedLang].experience_text_personal_li_1;
+    document.getElementById('experience_text_personal_date_1').innerText = translations[selectedLang].experience_text_personal_date_1;
 
 
 }
