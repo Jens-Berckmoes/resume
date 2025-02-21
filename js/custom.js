@@ -160,6 +160,7 @@ const translations = {
         skills_text_h4_4_2:"Novice",
         skills_text_h4_5_1:"Basic Knowledge",
         skills_text_h4_5_2:"Basic Knowledge",
+        skills_text_h3_2:"Tools & Platforms",
         skills_text_h3_3:"Testing & Quality",
         contact_text_h1:"Contact me",
         contact_text_h3_1:"Mobile Number",
