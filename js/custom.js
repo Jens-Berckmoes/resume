@@ -114,6 +114,7 @@ const translations = {
         education_text:"Education",
         accomplishments_text:"Accomplishments",
         skills_text:"Skills",
+        projects_text:"projects",
         contact_text:"Contact",
         about_text_h1:"About me",
         about_text_p:"As a dedicated Java developer, I have consistently demonstrated my ability to take ownership and responsibility. My passion for clean code, thorough testing, and continuous learning has been a driving force in my career. Known for thinking outside the box, I actively seek advice from colleagues and excel at bringing teams together to collaborate and achieve the bigger picture.",
@@ -162,6 +163,14 @@ const translations = {
         skills_text_h4_5_2:"Basic Knowledge",
         skills_text_h3_2:"Tools & Platforms",
         skills_text_h3_3:"Testing & Quality",
+        projectss_text_h1:"Projects",
+        projects_text_h1:"Projects",
+        projects_text_p:"This personal project was designed to deepen my knowledge of Java and Angular. The application demonstrates how I combine a Spring Boot backend with a modern Angular frontend to process and show data in real-time.",
+        projects_text_li1:"Built with Spring Boot, Hibernate, SQL and Angular",
+        projects_text_li2:"Functionalities: fetch items, add, delete and filter them",
+        projects_text_li3:"CRUD-system for guild-inventory using REST API",
+        projects_text_note:"In this short I will show you how I start the game, pick a character, collect the information for the inventory using an ingame addon, export the data and show it live on the website.",
+        projects_text_p_video:"Your browser doens't support video.",
         contact_text_h1:"Contact me",
         contact_text_h3_1:"Mobile Number",
         contact_text_h3_2:"Social Network",
@@ -206,6 +215,7 @@ const translations = {
         accomplishments_text_li_1:"Geslaagd met een score van 82%.",
         accomplishments_text_date_2:"November 2024",
         skills_text_h1:"Vaardigheden",
+        projects_text_h1:"Projecten",
         skills_text_h3_1:"Programmeertalen & Frameworks",
         skills_text_h4_1_1:"Gevorderd",
         skills_text_h4_1_2:"Gevorderd",
@@ -221,6 +231,13 @@ const translations = {
         skills_text_h4_5_2:"Basiskennis",
         skills_text_h3_2:"Tools & Platformen",
         skills_text_h3_3:"Testen & Kwaliteit",
+        projects_text:"projecten",
+        projects_text_p:"Dit persoonlijk project ontwikkelde ik om mijn kennis in Java en Angular verder te verdiepen.De applicatie demonstreert hoe ik een Spring Boot backend combineer met een moderne Angular frontend om data real-time te verwerken en weer te geven.",
+        projects_text_li1:"Gebouwd met Spring Boot, Hibernate, SQL en Angular",
+        projects_text_li2:"Functionaliteiten: items ophalen, toevoegen, verwijderen en filteren",
+        projects_text_li3:"CRUD-systeem voor guild-inventaris met REST API",
+        projects_text_note:"In deze korte demo toon ik hoe ik een character in het spel start, de inventory ophaal via mijn backend en deze data live weergeef in de webapp.",
+        projects_text_p_video:"Je browser ondersteunt geen videoweergave.",
         contact_text_h1:"Contacteer mij",
         contact_text_h3_1:"Mobiel Nummer",
         contact_text_h3_2:"Social Media",
@@ -283,6 +300,13 @@ function changeLanguage() {
     document.getElementById('contact_text_h1').innerText = translations[selectedLang].contact_text_h1;
     document.getElementById('contact_text_h3_1').innerText = translations[selectedLang].contact_text_h3_1;
     document.getElementById('contact_text_h3_2').innerText = translations[selectedLang].contact_text_h3_2;
+    document.getElementById('projects_text_h1').innerText = translations[selectedLang].projects_text_h1;
+    document.getElementById('projects_text_p').innerText = translations[selectedLang].projects_text_p;
+    document.getElementById('projects_text_note').innerText = translations[selectedLang].projects_text_note;
+    document.getElementById('projects_text_li1').innerText = translations[selectedLang].projects_text_li1;
+    document.getElementById('projects_text_li2').innerText = translations[selectedLang].projects_text_li2;
+    document.getElementById('projects_text_li3').innerText = translations[selectedLang].projects_text_li3;
+    document.getElementById('projects_text_p_video').innerText = translations[selectedLang].projects_text_p_video;
     document.getElementById('experience_text_h3_1').innerText = translations[selectedLang].experience_text_h3_1;
     document.getElementById('experience_text_personal_li_1').innerText = translations[selectedLang].experience_text_personal_li_1;
     document.getElementById('experience_text_personal_date_1').innerText = translations[selectedLang].experience_text_personal_date_1;
