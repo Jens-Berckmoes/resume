@@ -171,6 +171,11 @@ const translations = {
         projects_text_li3:"CRUD-system for guild-inventory using REST API",
         projects_text_note:"In this short I will show you how I start the game, pick a character, collect the information for the inventory using an ingame addon, export the data and show it live on the website.",
         projects_text_p_video:"Your browser doens't support video.",
+        projects_text_p_2:"This second personal project was designed to demonstrate my knowledge of Java. The application shows how I upload a CSV file from the bank, categorize it, and generate an overview of all expenses. It uses real data, which can also be exported to the desired format.",
+        projects_text_li1_2:"Built with Java and JavaFX",
+        projects_text_li2_2:"Features: loads a CSV file, generates an overview of expenses and a chart, and allows exporting to CSV, European CSV (';'), and PDF.",
+        projects_text_note_2:"In this short demo, I show how to upload a CSV file, generate an overview of expenses and a chart, and export the data to CSV, European CSV (';'), and PDF.",
+        projects_text_p_video_2:"Your browser doens't support video.",
         contact_text_h1:"Contact me",
         contact_text_h3_1:"Mobile Number",
         contact_text_h3_2:"Social Network",
@@ -238,6 +243,11 @@ const translations = {
         projects_text_li3:"CRUD-systeem voor guild-inventaris met REST API",
         projects_text_note:"In deze korte demo toon ik hoe ik een character in het spel start, de inventory ophaal via mijn backend en deze data live weergeef in de webapp.",
         projects_text_p_video:"Je browser ondersteunt geen videoweergave.",
+        projects_text_p_2:"Dit tweede persoonlijke project is ontworpen om mijn kennis van Java te demonstreren. De applicatie toont hoe ik een CSV-bestand van de bank upload, deze categoriseer en een overzicht maak van alle uitgaven. Hierbij wordt gebruikgemaakt van echte data, die ook geëxporteerd kan worden naar het gewenste formaat.",
+        projects_text_li1_2:"Gebouwd met Java en JavaFX",
+        projects_text_li2_2:"Functionaliteiten: Laadt een CSV, genereert een overzicht van uitgaven en een grafiek, en laat toe om te exporteren naar CSV, European CSV (';') en PDF.",
+        projects_text_note_2:"In deze korte demo toon ik hoe ik een CSV-bestand upload, een overzicht van uitgaven en een grafiek genereer, en de data exporteer naar CSV, European CSV (';') en PDF.",
+        projects_text_p_video_2:"Je browser ondersteunt geen videoweergave.",
         contact_text_h1:"Contacteer mij",
         contact_text_h3_1:"Mobiel Nummer",
         contact_text_h3_2:"Social Media",
@@ -307,6 +317,11 @@ function changeLanguage() {
     document.getElementById('projects_text_li2').innerText = translations[selectedLang].projects_text_li2;
     document.getElementById('projects_text_li3').innerText = translations[selectedLang].projects_text_li3;
     document.getElementById('projects_text_p_video').innerText = translations[selectedLang].projects_text_p_video;
+    document.getElementById('projects_text_p_2').innerText = translations[selectedLang].projects_text_p_2;
+    document.getElementById('projects_text_note_2').innerText = translations[selectedLang].projects_text_note_2;
+    document.getElementById('projects_text_li1_2').innerText = translations[selectedLang].projects_text_li1_2;
+    document.getElementById('projects_text_li2_2').innerText = translations[selectedLang].projects_text_li2_2;
+    document.getElementById('projects_text_p_video_2').innerText = translations[selectedLang].projects_text_p_video_2;
     document.getElementById('experience_text_h3_1').innerText = translations[selectedLang].experience_text_h3_1;
     document.getElementById('experience_text_personal_li_1').innerText = translations[selectedLang].experience_text_personal_li_1;
     document.getElementById('experience_text_personal_date_1').innerText = translations[selectedLang].experience_text_personal_date_1;
