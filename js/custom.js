@@ -117,27 +117,29 @@ const translations = {
         projects_text:"projects",
         contact_text:"Contact",
         about_text_h1:"About me",
-        about_text_p:"As a dedicated Java developer, I have consistently demonstrated my ability to take ownership and responsibility. My passion for clean code, thorough testing, and continuous learning has been a driving force in my career. Known for thinking outside the box, I actively seek advice from colleagues and excel at bringing teams together to collaborate and achieve the bigger picture.",
+        about_text_p:"As a dedicated Java developer with 6 years of experience in Java (8–21), Spring Boot, Hibernate, and Angular 19, I have consistently demonstrated my ability to take ownership and responsibility. My passion for clean code, thorough testing, and continuous learning has been a driving force in my career. Known for thinking outside the box, I actively seek advice from colleagues and excel at bringing teams together to collaborate and achieve the bigger picture.",
         experience_text_h1:"Experience",
         experience_text_personal_date_1:"Mai 2024 - now",
         experience_text_h3_1:"Family sabatical",
         experience_text_personal_li_1:"I Took time off to care for my family. Continued to refine my Java and Angular skills through personal projects, fully ready to return to the job market.",
         experience_text_acerta_date_1:"September 2022 - Mai 2024",
-        experience_text_acerta_li_1:"Focused on knowledge sharing and mentoring for testing.",
-        experience_text_acerta_li_2:"Implemented tools and strategies to reduce resource and reliability costs.",
-        experience_text_acerta_li_3:"Developed robust and reliable code using SOLID and Clean Code principles.",
+        experience_text_acerta_li_1:"Worked in a backend team on the further development and maintenance of the Acerta-website and internal services.",
+        experience_text_acerta_li_2:"Supported testing, bug fixing, and refactoring to improve application reliability.",
+        experience_text_acerta_li_3:"Implemented new features using Java (Spring Boot, Hibernate, SQL) within an agile team.",
+        experience_text_acerta_li_4:"Wrote scalable, maintainable code following Clean Code and SOLID principles.",
+        experience_text_acerta_li_5:"Actively involved in knowledge sharing and continuous technical improvements.",
         experience_text_acerta_date_2:"January 2020 - August 2022",
-        experience_text_acerta_li_4:"Sole Java developer in a small team, ensuring data accuracy in XML generations.",
-        experience_text_acerta_li_5:"Resolved critical software issues and led meetings with managers, senior developers and clients.",
-        experience_text_acerta_li_6:"Developed robust and reliable code using SOLID and Clean Code principles.",
+        experience_text_acerta_li_6:"Sole Java developer within a small team, responsible for ensuring the accuracy of XML data generation.",
+        experience_text_acerta_li_7:"Resolved critical software issues and led technical meetings with managers and clients.",
+        experience_text_acerta_li_8:"Performed refactorings to improve legacy code based on Clean Code and SOLID principles.",
+        experience_text_acerta_li_9:"Developed and maintained data export processes and validation mechanisms.",
         experience_text_volvo_date:"February 2018 - December 2019",
         experience_text_volvo_li_1:"Collaborated with international teams to develop and maintain software applications.",
         experience_text_volvo_li_2:"Developed and maintained code used by factory workers, ensuring usability and efficiency.",
         experience_text_volvo_li_3:"Initiated and implemented testing processes to enhance software reliability.",
-        experience_text_volvo_li_4:"Became the sole developer on a project, managing all aspects of its development.",
-        experience_text_volvo_li_5:"Refactored legacy code using Clean Code and SOLID principles.",
+        experience_text_volvo_li_4:"Solely managed a project, refactoring legacy code with Clean Code principles.",
         experience_text_cegeka_date:"April 2017 - November 2017",
-        experience_text_cegeka_li_1:"Managed multiple websites developed in PHP and Angularjs during a six months contract.",
+        experience_text_cegeka_li_1:"Managed and improved multiple websites developed in PHP and Angularjs during a six months contract.",
         education_text_h1:"Education",
         education_text_date:"January 2016 - April 2017",
         education_text_h3:"Intec Brussels",
@@ -189,27 +191,29 @@ const translations = {
         skills_text:"Vaardigheden",
         contact_text:"Contact",
         about_text_h1:"Over mij",
-        about_text_p:"Als toegewijde Java-ontwikkelaar heb ik keer op keer bewezen verantwoordelijkheid te nemen en eigenaarschap te tonen. Mijn passie voor clean code, grondig testen en continu bijleren heeft mijn carrière vooruitgestuwd. Bekend om mijn out-of-the-box denken, zoek ik actief advies bij collega’s en blink ik uit in het samenbrengen van teams om gezamenlijk het grotere geheel te bereiken.",
+        about_text_p:"Als toegewijde Java-ontwikkelaar met 6 jaar ervaring in Java (8–21), Spring Boot, Hibernate en Angular 19, heb ik steeds mijn vermogen om verantwoordelijkheid te nemen en eigenaarschap te tonen bewezen. Mijn passie voor clean code, grondig testen en continu bijleren is een drijvende kracht geweest in mijn carrière. Bekend om out-of-the-box te denken, zoek ik actief advies bij collega’s en blink ik uit in het samenbrengen van teams om gezamenlijk het grotere geheel te bereiken.",
         experience_text_h1:"Ervaring",
         experience_text_personal_date_1:"Mei 2024 - nu",
         experience_text_h3_1:"Persoonlijke Verlofperiode",
         experience_text_personal_li_1:"Ik nam bewust een pauze om voor mijn gezin te zorgen. Tijdens deze periode heb ik mijn kennis van Java en Angular verder ontwikkeld door persoonlijke projecten, en ik ben volledig klaar om terug te keren naar de arbeidsmarkt.",
         experience_text_acerta_date_1:"September 2022 - Mei 2024",
-        experience_text_acerta_li_1:"Gefocust op het delen van kennis en begeleiden bij testen.",
-        experience_text_acerta_li_2:"Strategieën geïmplementeerd om kosten van middelen en betrouwbaarheid te verlagen.",
-        experience_text_acerta_li_3:"Schaalbare en betrouwbare code ontwikkeld volgens SOLID- en Clean Code-principes.",
+        experience_text_acerta_li_1:"Werkte in een backendteam aan de verdere ontwikkeling en het onderhoud van de Acerta-website en interne services.",
+        experience_text_acerta_li_2:"Ondersteunde testing, bugfixing en refactorings om de betrouwbaarheid van de applicatie te verbeteren.",
+        experience_text_acerta_li_3:"Implementeerde nieuwe features in Java (Spring Boot, Hibernate, SQL) binnen een agile team.",
+        experience_text_acerta_li_4:"Schreef schaalbare, onderhoudbare code volgens Clean Code en SOLID.",
+        experience_text_acerta_li_5:"Actief betrokken bij kennisdeling en technische verbeteringen.",
         experience_text_acerta_date_2:"Januari 2020 - Augustus 2022",
-        experience_text_acerta_li_4:"Enige Java-ontwikkelaar in een klein team, verantwoordelijk voor de nauwkeurigheid van gegevens in XML-generaties.",
-        experience_text_acerta_li_5:"Kritieke softwareproblemen opgelost en vergaderingen geleid met managers, senior ontwikkelaars en klanten.",
-        experience_text_acerta_li_6:"Schaalbare en betrouwbare code ontwikkeld volgens SOLID- en Clean Code-principes.",
+        experience_text_acerta_li_6:"Enige Java-ontwikkelaar binnen een klein team, verantwoordelijk voor de nauwkeurigheid van XML-datageneraties.",
+        experience_text_acerta_li_7:"Loste kritieke softwareproblemen op en leidde technische vergaderingen met managers en klanten.",
+        experience_text_acerta_li_8:"Refactorings uitgevoerd om legacy code te verbeteren volgens Clean Code en SOLID.",
+        experience_text_acerta_li_9:"Ontwikkelde en onderhoudde data-exportprocessen en validatiemechanismen.",
         experience_text_volvo_date:"Februari 2018 - December 2019",
         experience_text_volvo_li_1:"Samengewerkt met internationale teams om softwaretoepassingen te ontwikkelen en te onderhouden.",
         experience_text_volvo_li_2:"Code ontwikkeld en onderhouden die door fabrieksarbeiders wordt gebruikt, waarbij bruikbaarheid en efficiëntie zijn gewaarborgd.",
         experience_text_volvo_li_3:"Testprocessen geïnitieerd en geïmplementeerd om de betrouwbaarheid van software te verbeteren.",
-        experience_text_volvo_li_4:"Enige ontwikkelaar geworden op een project en alle aspecten van de ontwikkeling beheerd.",
-        experience_text_volvo_li_5:"Legacycode gerefactord volgens de principes van Clean Code en SOLID.",
+        experience_text_volvo_li_4:"Alleen verantwoordelijk geweest voor een project waarbij legacy code werd geherstructureerd volgens Clean Code-principes.",
         experience_text_cegeka_date:"April 2017 - November 2017",
-        experience_text_cegeka_li_1:"Meerdere websites onderhouden in PHP en AngularJS gedurende een contract van zes maanden.",
+        experience_text_cegeka_li_1:"Meerdere websites onderhouden en verbeterd die ontwikkeld waren in PHP en AngularJS, binnen een contract van zes maanden.",
         education_text_h1:"Opleidingen",
         education_text_date:"Januari 2016 - April 2017",
         education_text_h3:"Intec Brussel",
@@ -270,16 +274,18 @@ function changeLanguage() {
     document.getElementById('experience_text_acerta_li_1').innerText = translations[selectedLang].experience_text_acerta_li_1;
     document.getElementById('experience_text_acerta_li_2').innerText = translations[selectedLang].experience_text_acerta_li_2;
     document.getElementById('experience_text_acerta_li_3').innerText = translations[selectedLang].experience_text_acerta_li_3;
-    document.getElementById('experience_text_acerta_date_2').innerText = translations[selectedLang].experience_text_acerta_date_2;
     document.getElementById('experience_text_acerta_li_4').innerText = translations[selectedLang].experience_text_acerta_li_4;
     document.getElementById('experience_text_acerta_li_5').innerText = translations[selectedLang].experience_text_acerta_li_5;
+    document.getElementById('experience_text_acerta_date_2').innerText = translations[selectedLang].experience_text_acerta_date_2;
     document.getElementById('experience_text_acerta_li_6').innerText = translations[selectedLang].experience_text_acerta_li_6;
+    document.getElementById('experience_text_acerta_li_7').innerText = translations[selectedLang].experience_text_acerta_li_7;
+    document.getElementById('experience_text_acerta_li_8').innerText = translations[selectedLang].experience_text_acerta_li_8;
+    document.getElementById('experience_text_acerta_li_9').innerText = translations[selectedLang].experience_text_acerta_li_9;
     document.getElementById('experience_text_volvo_date').innerText = translations[selectedLang].experience_text_volvo_date;
     document.getElementById('experience_text_volvo_li_1').innerText = translations[selectedLang].experience_text_volvo_li_1;
     document.getElementById('experience_text_volvo_li_2').innerText = translations[selectedLang].experience_text_volvo_li_2;
     document.getElementById('experience_text_volvo_li_3').innerText = translations[selectedLang].experience_text_volvo_li_3;
     document.getElementById('experience_text_volvo_li_4').innerText = translations[selectedLang].experience_text_volvo_li_4;
-    document.getElementById('experience_text_volvo_li_5').innerText = translations[selectedLang].experience_text_volvo_li_5;
     document.getElementById('experience_text_cegeka_date').innerText = translations[selectedLang].experience_text_cegeka_date;
     document.getElementById('experience_text_cegeka_li_1').innerText = translations[selectedLang].experience_text_cegeka_li_1;
     document.getElementById('education_text_h1').innerText = translations[selectedLang].education_text_h1;
